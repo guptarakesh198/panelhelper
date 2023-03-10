@@ -1,0 +1,19 @@
+{
+    "name": "guptarakesh198/panelhelper",
+    "description": "admin panel helper package",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guptarakesh198\\Panelhelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rakesh Gupta",
+            "email": "guptarakesh198@gmail.com"
+        }
+    ]
+}
