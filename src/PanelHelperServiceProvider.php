@@ -13,7 +13,7 @@ class PanelHelperServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        app()->sidebar_menu = [];
+        
         $this->loadViewsFrom(__DIR__.'/../views', 'panelhelper');
 
     }
