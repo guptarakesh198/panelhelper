@@ -26,6 +26,12 @@ class PanelHelperMiddleware
                 'route' => '/tinker',
                 'extra' => 'target="_blank"'
             ]);
+            $sidebar->add_menu_item('MetricaDeveloper',[
+                'name' => 'View Log',
+                'class' => 'view_log',
+                'route' => '/log-viewer',
+                'extra' => 'target="_blank"'
+            ]);
             $sidebar->init();
         }
 
